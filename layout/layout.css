@@ -1,0 +1,63 @@
+body {
+width: 960px;
+margin: 30px auto;
+}
+
+ul {
+list-style-type: none;
+}
+
+main {
+display: flex;
+}
+
+.padding_this{
+padding: 15px;
+}
+
+.logo,
+.navigasi,
+.konten,
+.sidebar,
+.footer {
+margin-bottom: 5px;
+padding: 15px 0;
+}
+
+.logo {
+width: 100%;
+height: auto;
+background-color: black;
+text-align: left;
+color: #fff;
+}
+.navigasi {
+width: 100%;
+height: auto;
+background: black;
+text-align: right;
+}
+.konten {
+width: 70%;
+background: white;
+}
+.sidebar {
+width: 30%;
+background: white;
+}
+.footer {
+width: 100%;
+background: blue;
+text-align: center;
+}
+
+.navigasi ul{
+padding: 0;
+list-style: none;
+display: inline-block;
+margin: 0;
+}
+.navigasi li{
+float: left;
+margin: 0 10px;
+}
