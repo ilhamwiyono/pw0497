@@ -1,0 +1,149 @@
+
+.top {
+	text-align: center;
+}
+
+.cont-font {
+	font-size: 1.2em
+}
+
+.menu
+{
+    border-top: 5px solid #dd6600;
+    background: #ffccff;
+    font-size: 16px;
+    text-align: center;
+}
+
+.heading
+{
+    float: right;
+    background-color: white;
+    margin-top: 30px;
+    padding: 15px 15px 15px 15px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.header {
+	background-color: orange;
+    background-size: cover;
+	text-align: center;
+	padding-top: 5px;
+	height: 150px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-top: 5px solid black;
+}
+
+body {
+	padding: 5px;
+}
+
+aside {
+	text-align: center;
+	font-size: 1.1em;
+	padding: 3px;
+}
+
+nav {
+	position: sticky;
+	top: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #b4b4b4;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.title {
+	font-size: 1.5em;
+	border-left: 6px solid blue;
+	padding-left: 3px;
+	background-color: #f0f0f0;
+	font-weight: bold;
+}
+
+footer {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin-top: 20px;
+}
